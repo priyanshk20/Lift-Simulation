@@ -1,2 +1,2 @@
 # Lift-Simulation
-Lift Simulation using web technologies
+Lift Mechanic Simulator
