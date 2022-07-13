@@ -11,36 +11,57 @@ header{
 }
 
 .form{
-    height: 30%;
     display:flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: red;
-    margin-top: 2vh;
-    text-align: center
+    margin-top: 1vh;
+    text-align: center;
 }
 
 .form input{
-    height: 5vh;
-    font-size:20px;
+    height: 4vh;
+    width: 15%;
+    font-size:15px;
     margin: 0 1rem;
+    text-align: center;
 }
 
 .form label{
-    font-size:20px;
+    font-size:15px;
     font-weight: bold;
 }
 
-.form button{
-    width: 10rem;
-    height: 5vh;
-    margin-top: 2rem;
-    border: 2px solid black;
-    background-color: white;
-    font-size:20px;
+.container{
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
 }
 
-.container{
-    padding:1rem;
+.form-btn{
+    display: flex;
+    align-items: center;
+    margin:0.5rem;
+}
+
+.form-btn button{
+    border: 2px solid black;
+    height: 4vh;
+    background-color: white;
+    font-size:15px;
+}
+
+.level{
+        height: 100px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(240, 237, 237);
+        padding: 5px;
+        border-bottom: 2px grey solid;
+    }
+
+.floor button{
+    display: block;
 }
